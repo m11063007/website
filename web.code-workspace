@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../自動化公文歸檔"
+		},
+		{
+			"path": "../../../Desktop/SCAN"
+		}
+	],
+	"settings": {
+		"python-envs.pythonProjects": [
+			{
+				"path": ".",
+				"envManager": "ms-python.python:venv",
+				"packageManager": "ms-python.python:pip"
+			},
+			{
+				"path": "OCR_Project",
+				"envManager": "ms-python.python:venv",
+				"packageManager": "ms-python.python:pip",
+				"workspace": "自動化公文歸檔"
+			}
+		]
+	}
+}
