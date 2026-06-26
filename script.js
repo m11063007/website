@@ -42,6 +42,8 @@ function showSlides(n) {
   if (dots[slideIndex - 1]) dots[slideIndex - 1].className += " active";
 }
 
+
+
 // 🟨 自動輪播，每5秒切換
 if (document.getElementsByClassName("mySlides").length > 0) {
   setInterval(() => { plusSlides(1); }, 5000);

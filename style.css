@@ -183,10 +183,10 @@ header, nav {
 .slideshow-container {
   position: relative;
   width: 70%; /* 🔴 修改：全寬 */
-  height: auto;
+  
   max-height: 80vh; /* 🔴 修改：用視窗高度取代固定 px */
   margin: auto;
-  margin: auto;overflow: hidden;    /* 隱藏超出範圍的部分 */
+  overflow: hidden;    /* 隱藏超出範圍的部分 */
   background: #000;    /* 避免有空白時露出背景 */
 }
 /* 每一張輪播圖片 */
@@ -200,7 +200,11 @@ header, nav {
   width: 100%;
   height: 100%;
   object-fit: cover;   /* 填滿容器，保持比例裁切 */
-  vertical-align: middle;
+  vertical-align: center;
+}
+
+.mySlides img.top-align {
+  object-position: top;    /* 只有公司門面會鎖定頂端、裁剪下方 */
 }
 
 /* 上一張 下一張按鈕 */
